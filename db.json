@@ -1,29 +1,31 @@
 {
-    "data":[
-    { "id": 13100270, "name": "Patrick", "age": 27, "course": "BS-CpE" },
-    { "id": 12612790, "name": "Ean", "age": 25, "course": "BS-ChE" },
-    { "id": 13502187, "name": "Karlo", "age": 22, "course": "BS-CS" },
-    { "id": 17426806, "name": "Gran", "age": 23, "course": "BS-IT"},
-    { "id": 21075329, "name": "Josh", "age": 20, "course": "BS-HRM" }
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
   ],
-
-  "passengers":[
-    { "name": "Patrick", "id": 1, "destination": "" },
-    { "name": "Ean", "id": 2, "destination": "" },
-    { "name": "Karlo", "id": 3, "destination": "" },
-    { "name": "Gran", "id": 4, "destination": ""},
-    { "name": "Josh", "id": 5, "destination": "" },
-    { "name": "Chiz", "id": 6, "destination": "" },
-    { "name": "Khent", "id": 7, "destination": "" },
-    { "name": "Akil", "id": 8, "destination": "" }
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-
-    "destinations":[
-    { "id": 1, "destination": "Cebu", "price": 100},
-    { "id": 2, "destination": "Mandaue", "price": 120},
-    { "id": 3, "destination": "Lilo-an", "price": 140},
-    { "id": 4, "destination": "Lapu-Lapu", "price":160},
-    { "id": 5, "destination": "Consolacion", "price": 180},
-    { "id": 6, "destination": "Talisay", "price": 200}
-  ]
+  "profile": {
+    "name": "typicode"
+  }
 }
