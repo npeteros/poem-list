@@ -1,24 +1,29 @@
 {
-    "poems": [
-        {
-            "title": "Test Poem 1",
-            "poem": "This is test poem 1"
-        },
-        {
-            "title": "Test Poem 2",
-            "poem": "This is test poem 2"
-        },
-        {
-            "title": "Test Poem 3",
-            "poem": "This is test poem 3"
-        },
-        {
-            "title": "Test Poem 4",
-            "poem": "This is test poem 4"
-        },
-        {
-            "title": "Test Poem 5",
-            "poem": "This is test poem 5"
-        }
-    ]
+    "data":[
+    { "id": 13100270, "name": "Patrick", "age": 27, "course": "BS-CpE" },
+    { "id": 12612790, "name": "Ean", "age": 25, "course": "BS-ChE" },
+    { "id": 13502187, "name": "Karlo", "age": 22, "course": "BS-CS" },
+    { "id": 17426806, "name": "Gran", "age": 23, "course": "BS-IT"},
+    { "id": 21075329, "name": "Josh", "age": 20, "course": "BS-HRM" }
+  ],
+
+  "passengers":[
+    { "name": "Patrick", "id": 1, "destination": "" },
+    { "name": "Ean", "id": 2, "destination": "" },
+    { "name": "Karlo", "id": 3, "destination": "" },
+    { "name": "Gran", "id": 4, "destination": ""},
+    { "name": "Josh", "id": 5, "destination": "" },
+    { "name": "Chiz", "id": 6, "destination": "" },
+    { "name": "Khent", "id": 7, "destination": "" },
+    { "name": "Akil", "id": 8, "destination": "" }
+  ],
+
+    "destinations":[
+    { "id": 1, "destination": "Cebu", "price": 100},
+    { "id": 2, "destination": "Mandaue", "price": 120},
+    { "id": 3, "destination": "Lilo-an", "price": 140},
+    { "id": 4, "destination": "Lapu-Lapu", "price":160},
+    { "id": 5, "destination": "Consolacion", "price": 180},
+    { "id": 6, "destination": "Talisay", "price": 200}
+  ]
 }
